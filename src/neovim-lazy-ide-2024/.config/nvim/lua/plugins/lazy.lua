@@ -79,9 +79,6 @@ require('lazy').setup({
     'williamboman/mason.nvim',
     lazy = false,
     config = true,
-    opts = {
-      auto_install = true,  
-    }
   },
 
   -- Autocompletion
