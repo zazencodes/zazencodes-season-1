@@ -135,7 +135,7 @@ require('lazy').setup({
       require('mason-lspconfig').setup({
         ensure_installed = {
           'pyright',  -- python
-          'tsserver', -- js, ts
+          'ts_ls', -- js, ts
         },
         handlers = {
           lsp_zero.default_setup,
